@@ -23,6 +23,7 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    // These are optional fields, only added if they are defined
     resetPasswordToken: String,
     resetPasswordExpiresAt: Date,
     verificationToken: String,
